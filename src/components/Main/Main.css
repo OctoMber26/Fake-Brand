@@ -1,0 +1,91 @@
+
+.description{
+    height: 100vh;
+    background-image: url(/src/components/Images/move.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.products{
+    height: 100vh;
+    background-color:whitesmoke;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.products:hover{
+    color:limegreen;
+    transition: 1s;
+}
+
+.descriptive{
+    color: wheat;
+    font-family: 'Bebas Neue', cursive;
+    transform: rotate(90deg);
+    font-size: 100px;
+    margin-top: 270px;
+}
+
+.descriptive:hover{
+    color:limegreen;
+    transition: 1s;
+}
+
+.shoe_img img{
+    width: 500px;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .description{
+     background-image: url(/src/components/Images/move.jpg.jpg);
+    }
+
+    .descriptive{
+        width: 100%;
+        color: wheat;
+        font-family: 'Bebas Neue', cursive;
+        transform: rotate(0);
+        font-size: 50px;
+        margin-top: 270px;
+        color:rgb(255, 255, 255);
+        font-size: 100px;
+    }
+
+    .products{
+        width: 100%;
+        color: cornsilk;
+        text-align: left;
+        font-size: 30px;
+        font-family: 'Secular One';
+    }
+
+    .see_products{
+        margin-top: 30px;
+        margin-left: 10px;
+        display: inline-block;
+        color: black;
+        font-family: 'Secular One';
+        font-size: 50px;
+    }
+
+    .shoe_img img{
+        width: 300px;
+        margin: auto auto;
+        display: block;
+        margin-top: 40px;
+        transform: rotate(45deg);
+    }
+
+    .btn{
+        display: block;
+        margin: auto auto;
+        margin-top: 100px;
+    }
+}

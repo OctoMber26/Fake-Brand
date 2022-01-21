@@ -1,0 +1,75 @@
+.cart_section{
+    margin-top: -400px;
+    position: relative;
+    width: 100%;
+    margin: auto auto;
+    background-color: rgba(0, 0, 0, 0.912);
+    z-index: 1;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cart-status{
+
+color: limegreen;
+font-size: 30px;
+}
+
+.remove{
+    display: block;
+    margin: auto auto;
+}
+
+.store-items{
+    width: 100%;
+    color: limegreen;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.cart-img img{
+    width: 300px;
+}
+
+.total-price{
+    color: limegreen;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.close-cart{
+    display: block;
+    margin-left: 600px;
+    color:limegreen;
+    background-color: black;
+}
+
+@media only screen and (max-width: 600px){
+    .cart-img img{
+        width: 150px;
+    }
+    .remove{
+        display: block;
+        
+    }
+    .close-cart{
+        display: block;
+        margin-left: 350px;
+        color:limegreen;
+        background-color: black;
+    }
+    .cart_section{
+        margin-top: -400px;
+        position: relative;
+        width: 100%;
+        margin: auto auto;
+        background-color: rgba(0, 0, 0, 0.912);
+        z-index: 1;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .col-2 {
+        margin-top: 50px;
+    }
+}

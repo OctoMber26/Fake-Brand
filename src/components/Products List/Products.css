@@ -1,0 +1,56 @@
+.shoes{
+    width: 300px;
+    margin-top: 30px;
+}
+
+.sections{
+    width: 50%;
+    background-color: rgb(85, 85, 85);
+    margin: auto auto;
+    margin-top:40px;
+    border-radius: 20px;
+}
+
+h3{
+    color: limegreen;
+    font-family: 'Secular One';
+    font-size: 40px;
+}
+
+.price{
+    color: limegreen;
+    font-family: 'Secular One';
+    font-size: 30px;
+}
+
+.add{
+    display: block;
+    margin: auto auto;
+}
+
+@media only screen and (max-width: 600px){
+    .sections{
+        width: 60%;
+        background-color: rgb(85, 85, 85);
+        margin: auto auto;
+        margin-top:40px;
+        border-radius: 20px;
+    }
+
+    .add{
+        display: block;
+        margin: auto auto;
+        margin-top: -100px;
+    }
+    .price{
+        color: limegreen;
+        font-family: 'Secular One';
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .shoes{
+        width: 200px;
+        margin-top: 30px;
+    }
+}
